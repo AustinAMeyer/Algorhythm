@@ -18,41 +18,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="0je-19-kwq">
+                            <imageView clipsSubviews="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="0je-19-kwq">
                                 <rect key="frame" x="107" y="348" width="200" height="200"/>
                                 <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="vBZ-gS-u3K"/>
                                     <constraint firstAttribute="width" constant="200" id="xGK-KO-1Rw"/>
                                 </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yTk-yT-KjW">
-                                <rect key="frame" x="184" y="556" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
                                 <connections>
-                                    <segue destination="tcz-Ad-5cZ" kind="push" identifier="showPlaylistDetail" id="3c0-p3-Eyv"/>
+                                    <outletCollection property="gestureRecognizers" destination="obd-ON-y9X" appends="YES" id="MDZ-6E-t5p"/>
                                 </connections>
-                            </button>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1764705882352941" green="0.18431372549019609" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="yTk-yT-KjW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5pR-zM-cZQ"/>
                             <constraint firstItem="0je-19-kwq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="G3F-Fc-1r4"/>
-                            <constraint firstItem="yTk-yT-KjW" firstAttribute="top" secondItem="0je-19-kwq" secondAttribute="bottom" constant="8" id="bWm-Kt-5yy"/>
                             <constraint firstItem="0je-19-kwq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cvE-EJ-zpt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="7Ta-mW-PTG"/>
                     <connections>
-                        <outlet property="aButton" destination="yTk-yT-KjW" id="0av-gM-jQC"/>
                         <outlet property="playlistImageView0" destination="0je-19-kwq" id="WYB-s3-qSF"/>
+                        <segue destination="tcz-Ad-5cZ" kind="push" identifier="showPlaylistDetail" id="nsS-rw-67q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="obd-ON-y9X">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="M1M-3Y-RXq"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1005.7971014492755" y="205.58035714285714"/>
         </scene>
