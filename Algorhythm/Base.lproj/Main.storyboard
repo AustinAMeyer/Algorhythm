@@ -18,37 +18,105 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="0je-19-kwq">
-                                <rect key="frame" x="107" y="348" width="200" height="200"/>
-                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView clipsSubviews="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="0je-19-kwq">
+                                <rect key="frame" x="2" y="96" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="vBZ-gS-u3K"/>
-                                    <constraint firstAttribute="width" constant="200" id="xGK-KO-1Rw"/>
-                                </constraints>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="obd-ON-y9X" appends="YES" id="MDZ-6E-t5p"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="W2x-Gj-laV">
+                                <rect key="frame" x="212" y="96" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="53C-Ih-eHP" appends="YES" id="le0-3l-cSE"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="J8b-fr-Keo">
+                                <rect key="frame" x="2" y="306" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="iQa-Ew-YfL" appends="YES" id="JD7-PF-OCk"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="4f9-E5-wRV">
+                                <rect key="frame" x="212" y="306" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Q6b-Qt-x5E" appends="YES" id="soz-bD-1Ip"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="sHt-YM-3b9">
+                                <rect key="frame" x="2" y="516" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="9uz-fa-Hxz" appends="YES" id="vHT-hM-aQg"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="bch-iV-Veh">
+                                <rect key="frame" x="212" y="516" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Q0D-pZ-AsE" appends="YES" id="XWg-RC-SeH"/>
                                 </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1764705882352941" green="0.18431372549019609" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="0je-19-kwq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="G3F-Fc-1r4"/>
-                            <constraint firstItem="0je-19-kwq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cvE-EJ-zpt"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="7Ta-mW-PTG"/>
                     <connections>
-                        <outlet property="playlistImageView0" destination="0je-19-kwq" id="WYB-s3-qSF"/>
+                        <outletCollection property="playlistImageView" destination="0je-19-kwq" id="KVW-cW-22q"/>
+                        <outletCollection property="playlistImageView" destination="W2x-Gj-laV" id="Chj-ts-E27"/>
+                        <outletCollection property="playlistImageView" destination="J8b-fr-Keo" id="XHh-uv-l04"/>
+                        <outletCollection property="playlistImageView" destination="4f9-E5-wRV" id="8fo-8B-a1r"/>
+                        <outletCollection property="playlistImageView" destination="sHt-YM-3b9" id="Ee2-rx-LK5"/>
+                        <outletCollection property="playlistImageView" destination="bch-iV-Veh" id="9DQ-wC-TgW"/>
                         <segue destination="tcz-Ad-5cZ" kind="push" identifier="showPlaylistDetail" id="nsS-rw-67q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="obd-ON-y9X">
                     <connections>
-                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="M1M-3Y-RXq"/>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="uoM-Xm-Sai"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="53C-Ih-eHP">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="h1x-og-lKt"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="iQa-Ew-YfL">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="GdB-vl-8O1"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Q6b-Qt-x5E">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="Dwd-3L-5s2"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="9uz-fa-Hxz">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="7FW-Oc-p2z"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Q0D-pZ-AsE">
+                    <connections>
+                        <action selector="showPlaylistDetail:" destination="BYZ-38-t0r" id="7qg-mc-D0d"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
